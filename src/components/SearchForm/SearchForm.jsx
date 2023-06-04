@@ -16,6 +16,7 @@ export class SearchForm extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     this.props.onSubmit(this.state.name);
+    this.setState({name:''})
 
   }
   render() {

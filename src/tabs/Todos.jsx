@@ -9,7 +9,7 @@ export class Todos extends Component {
     todos: [],
   };
 
-  componentDidMount = () => {
+  componentDidMount  ()  {
     const items = localStorage.getItem(key);
 
     if (items) {
